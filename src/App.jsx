@@ -90,7 +90,7 @@ export default function Portfolio() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Resume_Benasir.pdf"
             download
             className="bg-white text-black hover:bg-gray-300 px-6 py-3 rounded-2xl font-semibold transition"
           >
