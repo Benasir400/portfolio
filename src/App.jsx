@@ -20,6 +20,14 @@ export default function Portfolio() {
   tech: ["ReactJS", "Spring Boot", "MySQL", "PDFBox", "Spring Security", "REST API"],
   github: "https://github.com/Benasir400/AI-Resume-Analyzer",
   demo: "#"
+},
+{
+  title: "Smart Expense Tracker",
+  description:
+    "A full-stack web application to track income and expenses with a clean dashboard. Users can add, edit, and delete transactions, view category-wise spending, and analyze expenses using charts and reports.",
+  tech: ["ReactJS", "Spring Boot", "MySQL", "REST API", "Recharts"],
+  github: "https://github.com/Benasir400/smart-expense-tracker",
+  demo: "#"
 }
     
    
