@@ -60,19 +60,6 @@ export default function Hero() {
 
           </div>
 
-          {/* TECH TAGS */}
-          <div className="flex flex-wrap gap-3 mt-10">
-
-            {["React", "Java", "Spring Boot", "MySQL", "Figma"].map((tech) => (
-              <span
-                key={tech}
-                className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-full text-sm text-gray-300"
-              >
-                {tech}
-              </span>
-            ))}
-
-          </div>
 
         </div>
 
