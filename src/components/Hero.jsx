@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            BENASIR <span className="text-violet-400">R</span>
+            BENASIR<span className="text-violet-400">R</span>
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mt-4">
@@ -54,7 +54,7 @@ export default function Hero() {
               download
               className="bg-white text-black hover:bg-gray-200 px-6 py-3 rounded-xl font-semibold transition"
             >
-              Resume
+             Download Resume
             </a>
 
           </div>
