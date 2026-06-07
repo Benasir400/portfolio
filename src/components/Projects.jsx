@@ -1,9 +1,9 @@
 export default function Projects() {
   const projects = [
-     {
+    {
       title: "Smart Expense Tracker",
       description:
-        "Full-stack expense management application that helps users monitor income, track spending, and visualize financial insights.",
+        "Designed and developed a responsive full-stack web application for personal finance management. Features include expense tracking, budget monitoring, salary management, expense categorization, report generation, and interactive data visualization.",
       tech: [
         "ReactJS",
         "Spring Boot",
@@ -11,12 +11,15 @@ export default function Projects() {
         "Recharts"
       ],
       github:
-        "https://github.com/Benasir400/smart-expense-tracker"
+        "https://github.com/Benasir400/smart-expense-tracker",
+      demo:
+        "https://smart-expense-tracker-chi-two.vercel.app/"
     },
+
     {
       title: "AI Resume Analyzer",
       description:
-        "AI-powered platform that analyzes resumes, provides ATS scoring, extracts skills, and generates recommendations for career improvement.",
+        "Engineered an intelligent resume analysis system that automates ATS scoring, skill extraction, resume evaluation, and career recommendations. The application helps users optimize resumes for improved recruitment outcomes.",
       tech: [
         "ReactJS",
         "Spring Boot",
@@ -25,9 +28,10 @@ export default function Projects() {
         "REST API"
       ],
       github:
-        "https://github.com/Benasir400/AI-Resume-Analyzer"
-    },
-   
+        "https://github.com/Benasir400/AI-Resume-Analyzer",
+      demo:
+        "https://your-resume-analyzer.vercel.app"
+    }
   ];
 
   return (
@@ -52,14 +56,14 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-slate-950 border border-slate-800 rounded-3xl p-8 hover:border-violet-400 transition"
+              className="bg-slate-950 border border-slate-800 rounded-3xl p-8 hover:border-violet-400 transition-all duration-300"
             >
 
               <div className="text-violet-400 text-sm font-semibold mb-3">
                 PROJECT {index + 1}
               </div>
 
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 {project.title}
               </h3>
 
@@ -78,14 +82,25 @@ export default function Projects() {
                 ))}
               </div>
 
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block bg-violet-500 hover:bg-violet-600 px-5 py-3 rounded-xl font-semibold transition"
-              >
-                View Project
-              </a>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-violet-500 hover:bg-violet-600 px-5 py-3 rounded-xl font-semibold transition"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-cyan-500 hover:bg-cyan-600 px-5 py-3 rounded-xl font-semibold transition"
+                >
+                  Live Demo
+                </a>
+              </div>
 
             </div>
           ))}
