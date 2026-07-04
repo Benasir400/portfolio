@@ -12,8 +12,7 @@ export default function Projects() {
       ],
       github:
         "https://github.com/Benasir400/employee-management-system",
-      demo:
-        "https://your-employee-management.vercel.app"
+      
     },
 
     {
