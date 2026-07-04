@@ -1,6 +1,22 @@
 export default function Projects() {
   const projects = [
     {
+      title: "Employee Management System",
+      description:
+        "Developed a full-stack Employee Management System to manage employee records, departments, roles, attendance, and payroll. Implemented secure CRUD operations, REST APIs, and a responsive user interface for efficient workforce management.",
+      tech: [
+        "ReactJS",
+        "Spring Boot",
+        "MySQL",
+        "REST API"
+      ],
+      github:
+        "https://github.com/Benasir400/employee-management-system",
+      demo:
+        "https://your-employee-management.vercel.app"
+    },
+
+    {
       title: "Smart Expense Tracker",
       description:
         "Designed and developed a responsive full-stack web application for personal finance management. Features include expense tracking, budget monitoring, salary management, expense categorization, report generation, and interactive data visualization.",
@@ -17,21 +33,20 @@ export default function Projects() {
     },
 
     {
-      title: "AI Resume Analyzer",
-      description:
-        "Engineered an intelligent resume analysis system that automates ATS scoring, skill extraction, resume evaluation, and career recommendations. The application helps users optimize resumes for improved recruitment outcomes.",
-      tech: [
-        "ReactJS",
-        "Spring Boot",
-        "MySQL",
-        "PDFBox",
-        "REST API"
-      ],
-      github:
-        "https://github.com/Benasir400/AI-Resume-Analyzer",
-      demo:
-        "https://your-resume-analyzer.vercel.app"
-    }
+  title: "Oral Cancer Detection",
+  description:
+    "Developed an AI-powered web application for early oral cancer detection using deep learning. The system analyzes oral cavity images to identify potential cancerous regions, providing prediction results that can assist in preliminary screening and improve early diagnosis.",
+  tech: [
+    "ReactJS",
+    "Spring Boot",
+    "Python",
+    "TensorFlow",
+    "REST API"
+  ],
+  github:
+    "https://github.com/Benasir400/oral_cancer",
+  
+}
   ];
 
   return (
@@ -51,7 +66,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
 
           {projects.map((project, index) => (
             <div
