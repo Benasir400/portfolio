@@ -21,10 +21,11 @@ export default function Portfolio() {
      
 
       <Projects />
+      <Education />
 
       <Certifications />
 
-      <Education />
+      
 
 
       <Contact />
